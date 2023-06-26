@@ -1,0 +1,36 @@
+## **Part One: Solidify Terminology**
+
+In your own terms, define the following terms:
+
+- What is HTTP?
+Hypertext Transfer Protocol.
+It's a protocol used to transfer information between devices that are inside the same network
+- What is a URL?
+Uniform Resource Locators.
+Those are addresses to locate webpages.
+- What is DNS?
+Domain Name System.
+It is similar to a phone book in the way that contains the IP addresses of domain names.
+- What is a query string?
+It is the last part of the URL, it indicates parameteres to get specific information 
+- What are two HTTP verbs and how are they different?
+GET and POST.
+GET: to request data from a source
+POST: to send data to a server to create or update a resource
+- What is an HTTP request?
+When a client is trying to access certain information or resource inside a server
+- What is an HTTP response?
+The response is given by the server to the client with the information or resource requested or inform about any error ocurred while processing the request
+- What is an HTTP header? Give a couple examples of request and response headers you have seen.
+It is a part of an HTTP request or response, which is used to pass additional information 
+- What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+1.My router is gonna send a HTTP request using the URL provided.
+2. DNS is gonna check with the .com directory to look for the website.
+3. The .com will provide an authoritative IP address.
+4. The IP address will be provided if we have access. So the HTTP response will be sent back to our router.
+5. Router gives the IP address to our browser.
+6. Our browser will get the IP address.
+7. Then browser will make a request to that IP address.
+8. Server will answer and usually will give a status code 200.
+9. Browser will make a DOM from the HTML provided, and JS, CSS..etc
+10.Browser will make different requests for each resource. 
